@@ -1,0 +1,25 @@
+.row {
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+}
+.col-6 {
+  border: 1px solid red;
+  width: 50%;
+}
+.ul-block {
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 12px;
+  li {
+    border-bottom: 1px solid #dcdcdc;
+    padding: 12px 0px;
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+}
+.ul-block-current{
+  border: 1px solid #00a2ef;
+}
